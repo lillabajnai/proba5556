@@ -1,0 +1,109 @@
+
+
+.wrapper{
+    overflow: hidden;
+    width: 100%;
+    height: 770px;
+    box-shadow: 10px 10px 2px 2px #6b6a6a;
+    animation: backInRight 1s 0s;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+.header{
+    text-align: center;
+    animation: fadeIn 1s 1.2s backwards;
+    margin-top: 80px;
+    
+}
+
+.menetrendek{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: relative;
+    width: 35%;
+    height: 100%;
+    box-shadow: 5px 10px 8px 10px #6b6a6a;
+    float:left;
+    margin-left: 5%;
+    border: 2px solid black;
+
+    .ticket{
+        border: 1px solid black;
+        margin: 20px;
+        
+        .ticket-list-1, .ticket-list-2{
+            display: inline-block;
+            list-style-type: none;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 1s 1s;
+            animation-fill-mode: forwards;
+            clear: both;
+            
+        }
+    
+        .ticket-list-2{
+            float:right;
+            margin-right: 150px;
+        }
+    
+        
+    }
+
+    button{
+        padding: 10px 20px;
+        font-size: 10px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #0578ba;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 4px #999;
+        margin-left: 20px;
+        opacity: 0;
+        animation: fadeInUp 1s 1s;
+        animation-fill-mode: forwards;
+        
+        
+        
+
+        &:hover{
+            background-color: #00cdcd;
+            color: rgb(255, 255, 255);
+        }
+
+        &:active{
+        background-color: #00ff22;
+        box-shadow: 0 5px rgb(138, 138, 138);
+        transform: translateY(4px);
+        }
+    }
+}
+
+
+
+
+.map-wrap{
+    border: 2px solid black;
+    float: right;
+    width: 53%;
+    height: 100%;
+    box-shadow: 10px 5px 5px #6b6a6a;
+    margin-right: 40px;
+
+}
+
+.leaflet-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}

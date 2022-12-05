@@ -1,0 +1,103 @@
+$container_height : 700px;
+$font_size : 30px;
+
+.data_container{
+    display: block;
+    width: 100%;
+
+.input_container_to_db{
+    height: $container_height;
+    font-size: 30px;
+    float :left;
+    width: 49%;
+    border: 1px solid black;    
+    overflow: hidden;
+    h2{
+        font-size: $font_size;
+        text-align: center;
+        animation: fadeIn 1s 0s backwards;
+    }
+    button{
+        padding: 15px 25px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #0578ba;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 40px;
+
+        &:hover{
+            background-color: #00cdcd
+        }
+
+        &:active{
+        background-color: #00ff22;
+        box-shadow: 0 5px rgb(138, 138, 138);
+        transform: translateY(4px);
+        }
+    }
+    .input_container_1{
+        width: 15px;
+        float: left;
+        margin-left: 50px;
+        
+
+        select{
+            font-size: 20px;
+            height: 40px;
+            width: 120px;
+            margin: 20px 0 20px 20px;
+            animation: fadeIn 1.5s 0s backwards;
+        }
+
+        
+
+        
+    }
+
+    .input_container_2{
+        width: 100;
+        
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+
+        input[type=time]{
+            font-size: 25px;
+            margin-top: 10px;
+            height: 36px;
+            margin-right: 50px;
+            animation: fadeIn 1.5s 0s backwards;
+        }
+    }
+
+    .input_container_3{
+        
+        margin-top: 130px;
+        justify-content: center;
+    }
+}
+
+.admin_stops_list{
+    width: 49%;
+    height: $container_height;
+    float: right;
+    border: 1px solid black;
+
+    h2{
+        font-size: $font_size;
+        text-align: center;
+        animation: fadeIn 1s 0s backwards;
+    }
+
+}
+
+}
+
+    
