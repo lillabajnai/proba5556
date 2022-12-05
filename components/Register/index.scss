@@ -1,0 +1,108 @@
+html{
+    OverFlow-y: scroll;
+    height: 1000px;
+}
+.form-container{
+    height: 950px;
+    
+    h2{
+        text-align: center;
+        margin-top: 100px;
+    }
+    form{
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 500px;
+        height: 620px;
+        margin: 20px;
+        padding: 20px;
+        padding-bottom: 120px;
+        box-shadow: 1px 4px 10px 1px #aaa;
+        font-size: 20px;
+        animation: fadeIn 0.5s 1s backwards;
+        z-index: 2;
+        
+        
+    
+        
+    
+         .form__input{
+            position: relative;
+            display: block;
+            height: 25px;
+            padding: 6px 16px;
+            width: 95%;
+            border: none;
+            background-color: #f3f3f3;
+        }
+    
+        .form-body{
+            text-align: left;
+            padding: 20px 10px;
+            
+    
+            h2{
+                margin-top: -20px;
+                text-align: center;
+            }
+        }
+        
+        .form-body > *{
+            padding: 5px;
+        }
+        
+        .form__label{
+            color: #777;
+            font-size: 1.2em;
+            animation: fadeIn 1s 1.8s backwards;
+        }
+        
+        input{
+            animation: fadeIn 1.5s 2.3s backwards;
+        }
+
+        input[type="date"]{
+            margin-bottom: 20px;
+        }
+
+        button{
+            padding: 15px 25px;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #0578ba;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px #999;
+            margin-top: 100px;
+            margin: 0 auto;
+            display: block;
+            text-decoration: none;
+            margin-bottom: 50px;
+    
+            &:hover{
+                background-color: #00cdcd
+            }
+    
+            &:active{
+            background-color: #00ff22;
+            box-shadow: 0 5px rgb(138, 138, 138);
+            transform: translateY(4px);
+            }
+        }
+    
+        
+        
+    }
+
+    
+
+
+
+
+
+}
+
+    

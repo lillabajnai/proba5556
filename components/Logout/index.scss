@@ -1,0 +1,50 @@
+.LogoutClass{
+    text-align: center;
+    h1{
+        margin-top: 0;
+        font-size: 50px;
+        animation: fadeIn 0.5s 1s backwards;
+        
+    }
+
+    img{
+        margin: 0 auto;
+        animation: fadeIn 0.5s 1.5s backwards;
+    }
+
+    img:nth-child(4){
+        width: 25%;
+        animation: fadeIn 0.5s 2s backwards;
+    }
+
+    
+
+
+    button{
+        padding: 15px 25px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #0578ba;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+        margin-top: 40px;
+        margin: 0 auto;
+        display: block;
+        animation: fadeIn 0.5s 3s backwards;
+
+        &:hover{
+            background-color: #00cdcd
+        }
+
+        &:active{
+        background-color: #00ff22;
+        box-shadow: 0 5px rgb(138, 138, 138);
+        transform: translateY(4px);
+        }
+    }
+
+}

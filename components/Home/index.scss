@@ -1,0 +1,29 @@
+.header_container{
+        
+    h1{
+        margin-top: 120px;
+        text-align: center;
+        position: relative;
+        animation: fadeIn 1s 1.3s backwards;
+    }
+
+    
+}
+
+.activity_buttons{
+    .register, .login{
+        h2{
+            animation: fadeIn 1.3s 1.8s backwards;
+        }
+
+        h2:hover{
+            font-size: 25px;
+        }
+
+        button{
+            width: 200px;
+            animation: fadeIn 1.8s 2.3s backwards;
+            color: black;
+        }
+    }
+}
